@@ -1,0 +1,1781 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* navbar section */
+header{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(149, 173, 218);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+header .logo{
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li{
+    color: black;
+    font-weight: 700px;
+    padding: 0px 40px 0px 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover{
+    color: aliceblue;
+    transition: all 0.3s ease-in-out;
+}
+header .search-bar{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: beige;
+     border-radius: 10px;
+}
+header .search-bar input[type = "text"]{
+    width: 300px;
+    background-color: beige;
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .search-bar #search{
+    color: black;
+    font-size: 20px;  
+}
+header .search-bar #search:hover{
+    color: rgb(6, 71, 190);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+header button{
+    padding: 5px 10px 5px 10px;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+header button a{
+    text-decoration: none;
+    color: black;
+}
+header button a:hover{
+    color: rgb(6, 71, 190);
+    transition: all 0.3s ease-in-out; 
+}
+/* hero section */
+section .background{
+    width: 100%;
+    height: 700px;
+    background-color:rgb(149, 173, 218);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section .background .left-side-content{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+section .background .left-side-content small{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-left: 3px solid black;
+    padding: 3px;
+}
+section .background .left-side-content big{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-bottom: 3px solid black;
+    padding: 3px;
+}
+section .background .left-side-content h1{
+    font-size: 40px;
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+section .background .left-side-content button{
+    padding: 5px 40px 5px 40px;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+section .background .left-side-content button a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+section .background .left-side-content button a:hover{
+    color: rgb(6, 71, 190);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+section .background .right-side-image{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    background: url(im1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* <!-- shop section --> */
+
+section .shop{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+section .shop .box1,.box2,.box3,.box4{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+section .shop .box1{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+section .shop .box1 h2{
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+  border-bottom: 3px solid black;
+  padding: 3px;
+}
+section .shop .box1 .icon-text .io{
+    font-size: 30px;
+}
+section .shop .box1 .icon-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 10px;
+}
+section .shop .box1 p{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+section .shop .box1 p:hover{
+    color: rgb(6, 71, 190);
+}
+/* box2 */
+section .shop .box2{
+    background: url(mob1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+section .shop .box2 h3{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 5px;
+}
+section .shop .box3{
+    background: url(mob2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+section .shop .box3 h3{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 5px;
+}
+section .shop .box4{
+    background: url(mob3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+section .shop .box4 h3{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 5px;
+}
+/* shop background section */
+section .two-images-background{
+     width: 100%;
+     height: 500px;
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: row;
+}
+section .two-images-background .image1,.image2{
+    width: 700px;
+    height: 400px;
+    background-color: aqua;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+section .two-images-background .image1{
+    background: url(back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .two-images-background .image1 .border1{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section .two-images-background .image1 .border1 p{
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 5px;
+}
+section .two-images-background .image1 .border1 h4{
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 5px;
+}
+section .two-images-background .image1 .border1 button{
+    padding: 3px 30px 3px 30px;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+section .two-images-background .image1 .border1 button a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+section .two-images-background .image2{
+    background: url(back2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .two-images-background .image2 .border1{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section .two-images-background .image2 .border1 p{
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 5px;
+}
+section .two-images-background .image2 .border1 h4{
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 5px;
+}
+section .two-images-background .image2 .border1 button{
+    padding: 3px 30px 3px 30px;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+section .two-images-background .image2 .border1 button a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+/* product section */
+section .product{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+section .product h2{
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px;
+}
+section .product .list-product{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+section .product .list-product ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+section .product .list-product ul li{
+    list-style: none;
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 20px;
+}
+section .product .list-product ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+section .product .list-product ul li a:hover{
+    color: rgb(6, 71, 190);
+    transition: all 0.5s ease;
+}
+section .product .list-product button{
+    padding: 3px 30px 3px 30px;
+    color: black;
+    background-color: rgb(1, 1, 1);
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+section .product .list-product button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+section .product .list-product button a:hover{
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+
+/* <!-- hot products --> */
+section .hot-product{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+section .hot-product .product1,.product2,.product3,.product4{
+    width: 270px;
+    height: 200px;
+    background-color: white;
+}
+section .hot-product .product1{
+    background: url(product1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot-product .product2{
+    background: url(product2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot-product .product3{
+    background: url(product3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot-product .product4{
+    background: url(product4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot-product .combo-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+section .hot-product small{
+    font-size: 20px;
+    font-weight: 500;
+}
+section .hot-product h3{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+section .hot-product .stars{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    color: orange;
+    font-size: 20px;
+}
+section .hot-product .price{
+    font-size: 20px;
+    font-weight: 500;
+}
+section .hot-product .price span{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color:gray;
+}
+section .hot-product .price .off{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color:rgb(244, 8, 8);
+}
+
+
+/* hot section */
+section .hot{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+section .hot .product5,.product6,.product7,.product8{
+    width: 270px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+section .hot .product5{
+    background: url(product5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot .product6{
+    background: url(product6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot .product7{
+    background: url(product7.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot .product8{
+    background: url(product8.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot .combo-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+section .hot small{
+    font-size: 20px;
+    font-weight: 500;
+}
+section .hot h3{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+section .hot .stars{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    color: orange;
+    font-size: 20px;
+}
+section .hot .price{
+    font-size: 20px;
+    font-weight: 500;
+}
+section .hot .price span{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color:gray;
+}
+section .hot .price .off{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color:rgb(244, 8, 8);
+}
+
+
+
+/* contact section */
+section .contact{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+section .contact .contact-box-1{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+section .contact .contact-box-1 h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+section .contact .contact-box-1 .message{
+    font-size: 20px;
+    color: black;
+}
+section .contact .form-content{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+section .contact .form-content form{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+section .contact .form-content form input{
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 2px 2px #888888;
+}
+section .contact .form-content form textarea{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 2px 2px #888888;
+}
+section .contact .form-content form button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 2px 2px #888888;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+section .contact .form-content form button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+section .contact .form-content form button a:hover{
+    color: rgb(6, 71, 190);
+    text-decoration: none;
+}
+
+section .contact .contact-box-2{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(48, 98, 98);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+section .contact .contact-box-2 h5{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: white;
+}
+section .contact .contact-box-2 .contact-icons{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    margin-right: 50px;
+}
+section .contact .contact-box-2 .contact-icons pre{
+    font-size: 15px;
+}
+section .contact .contact-box-2 .icons-cont{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+section .contact .contact-box-2 .contact-icons2{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+section .contact .contact-box-2 .contact-icons2 pre{
+    font-size: 15px;
+}
+section .contact .contact-box-2 .icons-conti{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+section .contact .contact-box-2 .icons-conti{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+section .contact .contact-box-2 .contact-icons3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+/* footer section */
+footer .foot{
+    width: 100%;
+    height: 450px;
+    background-color:rgb(149, 173, 218);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+footer .foot .footer-content1,.footer-content4,.footer-content2,.footer-content3{
+    width: 270px;
+    height: 250px;
+}
+footer .foot .footer-content1{
+    display: flex;
+    justify-content: start;
+    align-items:start;
+    flex-direction: column;
+    line-height: 30px;
+}
+footer .foot, .footer-content1, .logos{
+    font-size: 25px;
+    font-weight: 700;
+}
+footer .foot, .footer-content1, p{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-weight: 400;
+}
+.location{
+    font-size: 25px;
+}
+footer .foot, .footer-content1, .address p{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    font-weight: 500;
+}
+footer .foot .footer-content2, .footer-content3, .footer-content4{
+    display: flex;
+    justify-content: start;
+    align-items:start;
+    flex-direction: column;
+    line-height: 30px;
+    gap: 15px;
+}
+footer .foot .footer-content2 .footer-content3 .footer-content4, h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+footer .foot .footer-content2 .footer-content3 .footer-content4,  ul{
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+footer .foot .footer-content2, ul li{
+    cursor: pointer;
+}
+footer .foot .footer-content2, ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+footer .foot .footer-content2 .footer-content3 .footer-content4, ul li a:hover{
+    color: rgb(6, 71, 190);
+    text-decoration: none;
+    font-weight: 500;
+    border-left: 2px solid rgb(6, 71, 190);
+    padding-left: 10px;
+}
+ .calling{
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 25px;
+}
+.calling p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.mailing{
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.mailing p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.social-icon{
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+footer .copyright{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 450px) {
+
+/* navbar section */
+header{
+    width: 100%;
+    height: 80px;
+    flex-direction: column;
+}
+header .logo{
+    font-size: 30px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+header .search-bar{
+    width: 250px;
+}
+header .search-bar input[type = "text"]{
+    width: 250px;
+}
+header .search-bar #search{
+    color: black;
+    font-size: 17px;  
+    padding: 5px;
+}
+header .search-bar #search:hover{
+    color: rgb(6, 71, 190);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* hero section */
+section .background{
+    width: 100%;
+    height: 1200px;
+    background-color:rgb(149, 173, 218);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+section .background .left-side-content{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 250px;
+}
+section .background .left-side-content small{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-left: 3px solid black;
+    padding: 3px;
+}
+section .background .left-side-content big{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-bottom: 3px solid black;
+    padding: 3px;
+}
+section .background .left-side-content h1{
+    font-size: 35px;
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+section .background .left-side-content button{
+    padding: 5px 40px 5px 40px;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+section .background .left-side-content button a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+section .background .left-side-content button a:hover{
+    color: rgb(6, 71, 190);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+section .background .right-side-image{
+    width: 350px;
+    height: 350px;
+}
+/* <!-- shop section --> */
+
+section .shop{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+section .shop .box1,.box2,.box3,.box4{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+section .shop .box1{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+section .shop .box1 h2{
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+  border-bottom: 3px solid black;
+  padding: 3px;
+}
+section .shop .box1 .icon-text .io{
+    font-size: 30px;
+}
+section .shop .box1 .icon-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 10px;
+}
+section .shop .box1 p{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+section .shop .box1 p:hover{
+    color: rgb(6, 71, 190);
+}
+/* box2 */
+section .shop .box2{
+    background: url(mob1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+section .shop .box2 h3{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 5px;
+}
+section .shop .box3{
+    background: url(mob2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+section .shop .box3 h3{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 5px;
+}
+section .shop .box4{
+    background: url(mob3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+section .shop .box4 h3{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 5px;
+}
+
+/* shop background section */
+section .two-images-background{
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+section .two-images-background .image1,.image2{
+   width: 350px;
+   height: 500px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: column;
+}
+section .two-images-background .image1{
+   background: url(back1.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+section .two-images-background .image1 .border1{
+   width: 350px;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid rgb(255, 255, 255);
+}
+section .two-images-background .image1 .border1 p{
+   font-size: 14px;
+   color: white;
+   text-transform: capitalize;
+   font-weight: 600;
+   padding: 5px;
+}
+section .two-images-background .image1 .border1 h4{
+   font-size: 30px;
+   color: white;
+   text-transform: capitalize;
+   font-weight: 500;
+   padding: 5px;
+}
+section .two-images-background .image1 .border1 button{
+   padding: 3px 30px 3px 30px;
+   color: black;
+   background-color: white;
+   font-weight: 500;
+   border: none;
+   outline: none;
+   border-radius: 30px;
+}
+section .two-images-background .image1 .border1 button a{
+   text-decoration: none;
+   color: black;
+   text-transform: capitalize;
+   font-size: 18px;
+}
+section .two-images-background .image2{
+   background: url(back2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+section .two-images-background .image2 .border1{
+   width: 350px;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+section .two-images-background .image2 .border1 p{
+   font-size: 14px;
+   color: white;
+   text-transform: capitalize;
+   font-weight: 600;
+   padding: 5px;
+}
+section .two-images-background .image2 .border1 h4{
+   font-size: 30px;
+   color: white;
+   text-transform: capitalize;
+   font-weight: 500;
+   padding: 5px;
+}
+section .two-images-background .image2 .border1 button{
+   padding: 3px 30px 3px 30px;
+   color: black;
+   background-color: white;
+   font-weight: 500;
+   border: none;
+   outline: none;
+   border-radius: 30px;
+}
+section .two-images-background .image2 .border1 button a{
+   text-decoration: none;
+   color: black;
+   text-transform: capitalize;
+   font-size: 18px;
+}
+
+/* product section */
+section .product{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+section .product h2{
+    font-size: 25px;
+}
+section .product .list-product{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+section .product .list-product ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+section .product .list-product ul li{
+    list-style: none;
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 20px;
+}
+section .product .list-product ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+section .product .list-product ul li a:hover{
+    color: rgb(6, 71, 190);
+    transition: all 0.5s ease;
+}
+section .product .list-product button{
+    padding: 3px 30px 3px 30px;
+    color: black;
+    background-color: rgb(1, 1, 1);
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+section .product .list-product button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+section .product .list-product button a:hover{
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+
+/* <!-- hot products --> */
+section .hot-product{
+    width: 100%;
+    height: 2500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+section .hot-product .product1,.product2,.product3,.product4{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+}
+section .hot-product .product1{
+    background: url(product1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot-product .product2{
+    background: url(product2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot-product .product3{
+    background: url(product3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot-product .product4{
+    background: url(product4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot-product .combo-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+section .hot-product small{
+    font-size: 25px;
+    font-weight: 500;
+}
+section .hot-product h3{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+section .hot-product .stars{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    color: orange;
+    font-size: 20px;
+}
+section .hot-product .price{
+    font-size: 20px;
+    font-weight: 500;
+}
+section .hot-product .price span{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color:gray;
+}
+section .hot-product .price .off{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:rgb(244, 8, 8);
+}
+
+
+/* hot section */
+section .hot{
+    width: 100%;
+    height: 2500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+section .hot .product5,.product6,.product7,.product8{
+    width:350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+section .hot .product5{
+    background: url(product5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot .product6{
+    background: url(product6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot .product7{
+    background: url(product7.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot .product8{
+    background: url(product8.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .hot .combo-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+section .hot small{
+    font-size: 25px;
+    font-weight: 500;
+}
+section .hot h3{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+section .hot .stars{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    color: orange;
+    font-size: 20px;
+}
+section .hot .price{
+    font-size: 20px;
+    font-weight: 500;
+}
+section .hot .price span{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color:gray;
+}
+section .hot .price .off{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:rgb(244, 8, 8);
+}
+
+/* contact section */
+section .contact{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+section .contact .contact-box-1{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+section .contact .contact-box-1 h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+section .contact .contact-box-1 .message{
+    font-size: 20px;
+    color: black;
+}
+section .contact .form-content{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+section .contact .form-content form{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+section .contact .form-content form input{
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 2px 2px #888888;
+}
+section .contact .form-content form textarea{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 2px 2px #888888;
+}
+section .contact .form-content form button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 2px 2px #888888;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+section .contact .form-content form button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+section .contact .form-content form button a:hover{
+    color: rgb(6, 71, 190);
+    text-decoration: none;
+}
+
+section .contact .contact-box-2{
+    width: 350px;
+    height: 300px;
+    background-color: rgb(48, 98, 98);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+section .contact .contact-box-2 h5{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: white;
+}
+section .contact .contact-box-2 .contact-icons{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    margin-right: 50px;
+}
+section .contact .contact-box-2 .contact-icons pre{
+    font-size: 15px;
+}
+section .contact .contact-box-2 .icons-cont{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+section .contact .contact-box-2 .contact-icons2{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+section .contact .contact-box-2 .contact-icons2 pre{
+    font-size: 15px;
+}
+section .contact .contact-box-2 .icons-conti{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+section .contact .contact-box-2 .icons-conti{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+section .contact .contact-box-2 .contact-icons3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+/* footer section */
+footer .foot{
+    width: 100%;
+    height: 1200px;
+    background-color:rgb(149, 173, 218);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+footer .foot .footer-content1,.footer-content4,.footer-content2,.footer-content3{
+    width: 270px;
+    height: 250px;
+}
+footer .foot .footer-content1{
+    display: flex;
+    justify-content: start;
+    align-items:start;
+    flex-direction: column;
+    line-height: 30px;
+}
+footer .foot, .footer-content1, .logos{
+    font-size: 25px;
+    font-weight: 700;
+}
+footer .foot, .footer-content1, p{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: justify;
+    font-weight: 400;
+}
+.location{
+    font-size: 25px;
+}
+footer .foot, .footer-content1, .address p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 500;
+}
+footer .foot .footer-content2, .footer-content3, .footer-content4{
+    display: flex;
+    justify-content: start;
+    align-items:start;
+    flex-direction: column;
+    line-height: 30px;
+    gap: 15px;
+}
+footer .foot .footer-content2 .footer-content3 .footer-content4, h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+footer .foot .footer-content2 .footer-content3 .footer-content4,  ul{
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+footer .foot .footer-content2, ul li{
+    cursor: pointer;
+}
+footer .foot .footer-content2, ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+footer .foot .footer-content2 .footer-content3 .footer-content4, ul li a:hover{
+    color: rgb(6, 71, 190);
+    text-decoration: none;
+    font-weight: 500;
+    border-left: 2px solid rgb(6, 71, 190);
+    padding-left: 10px;
+}
+ .calling{
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 25px;
+}
+.calling p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.mailing{
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.mailing p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.social-icon{
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+footer .copyright{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+}
+   
